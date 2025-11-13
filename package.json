@@ -1,0 +1,47 @@
+{
+  "name": "xdrc-translation",
+  "version": "1.0.3",
+  "author": "",
+  "description": "用于vue-i18n的翻译转换工具，支持excel和json互转",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "keywords": [
+    "couple2翻译",
+    "vue-i18n翻译",
+    "Excel转json",
+    "json转Excel"
+  ],
+  "scripts": {
+    "xlsx": "cross-env NODE_ENV=test rollup -c & node example/src/xlsx.js",
+    "json": "cross-env NODE_ENV=test rollup -c & node example/src/json.js",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "deploy": "cross-env NODE_ENV=production rollup -c && npm publish"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-runtime": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@rollup/plugin-babel": "^6.1.0",
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-strip": "^3.0.4",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/node": "^24.10.0",
+    "cross-env": "^10.1.0",
+    "rimraf": "^6.1.0",
+    "rollup": "^4.53.2",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3",
+    "xlsx": "^0.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.ylwnl.com/xdrc-util/xdrc-translation-plugin.git"
+  }
+}

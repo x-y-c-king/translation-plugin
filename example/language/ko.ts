@@ -1,0 +1,174 @@
+import feedGuideTitle from "@/assets/images/ko/feed_guildline_head.png"
+import shareImg from "@/assets/images/ko/phb_fx_icon.png"
+import ruleImg from "@/assets/images/ko/phb_hdsm_icon.png"
+import shareBg from "@/assets/images/ko/phb_sj_bigbg_img.png"
+import empty from "@/assets/images/ko/phb_wjl_img.png"
+import timeRank from "@/assets/images/ko/phb_csb_banner_img.png"
+import speedRank from "@/assets/images/ko/phb_banner_img.png"
+import reviceImg from "@/assets/images/ko/receive_icon.png"
+
+export default {
+	btnConfirm: "확인하다",
+	feedGuide: {
+		title: feedGuideTitle
+	},
+	// 外出记录
+	outgoingRecord: {
+		title: "녹음",
+		tips: "더 이상 없습니다",
+		loading: "로딩 중",
+		outReward: "여행 보너스",
+		growthRate: "성장률",
+		lockStory: "스토리 잠금 해제",
+		affection: "호감도"
+	},
+	// 外出故事
+	petStory: {
+		title: "이야기",
+		empty: "데이터가 없습니다...",
+		loading: "로딩 중...",
+		pop: {
+			lock: "잠금 해제",
+			lockNum: "<span>{num}</span>회 잠금 해제됨",
+			tips: "외출 중 획득 가능"
+		}
+	},
+	// 宠物信息
+	petInfo: {
+		title: "애완동물 정보",
+		info: {
+			birthday: "생일",
+			age: "연령",
+			tips: "또 다른 건강한 수유에 대해 <span>{day}</span> 일이 자랄 수 있습니다",
+			day: "{day}일",
+			year: "{year}년",
+			name: "kitty",
+			levelEnd: "현재 레벨 진행률이 가득 찼습니다",
+			maxLevel: "이미 최고 레벨에 도달했습니다"
+		},
+		affection: {
+			label: "당신의 의견",
+			tips: "업그레이드하려면 <span>{num}</span>개의 호의가 남았습니다",
+
+			btn: "호의 보상"
+		},
+		diary: {
+			title: "성장 일기"
+		},
+		favorabilityPop: {
+			title: "다음과 같은 방법으로 의견을 얻을 수 있습니다",
+			text1: "애완 동물을 쓰다듬기",
+			text2: "고양이를 쓰다듬는 것",
+			text3: "목욕하다",
+			text4: "외출 시 무작위로 획득"
+		},
+		levelPop: {
+			title: "애완동물 건강히 키우면 성장 포인트 획득~",
+			tips: "약 <span>{day}</span> 일 동안 건강하게 먹이면 다음 형태로 자랄 수 있습니다"
+		},
+		namePop: {
+			title: "닉네임 수정",
+			confirm: "확정",
+			cancel: "취소",
+			placeholder: "닉네임 입력 ((최대 6자)"
+		}
+	},
+	// 宠物奖励
+	petAward: {
+		reviceImg,
+		title: "호의 보상",
+		affection: {
+			title: "업그레이드하려면 <span>{num}</span>개의 호의가 남았습니다",
+			tips: "영업권은 어떻게 얻나요?"
+		},
+		stageHead: "새로운 펫 액션",
+		stageGoods: {
+			title: "멤버십 보너스",
+			tips: "멤버십 리워드"
+		},
+		btnList: {
+			btn1: "아직 이 수준은 아닙니다",
+			btn2: "모든 보상이 청구되었습니다",
+			btn3: "멤버십 리워드",
+			btn4: "보상 받기"
+		}
+	},
+	// 撸猫排行榜
+	catStrokeRank: {
+		shareImg,
+		ruleImg,
+		shareBg,
+		empty,
+		timeRank,
+		speedRank,
+		rule: [
+			"1. 멍청한 고양이 순위표는 매주 월요일 0시에 업데이트됩니다.",
+			"2. 편안함을 위한 저킹 결과는 순위표에만 집계됩니다.",
+			"3. 같은 값을 가진 사용자의 경우 고양이 순위, 순위 시간 순서에 따라 달라질 수 있습니다.",
+			"4. 멍청한 고양이 순위는 상위 100위만 표시합니다.",
+			"5. 궁금한 점이 있으면 개인 센터 / 내 - 의견에서 확인할 수 있습니다. 피드백, 질문만 입력하세요~"
+		],
+		tab1: "속도 순위",
+		tab2: "횟수 순위",
+		speed: "속도：{speed}s",
+		count: "{num}회",
+		tips: "뒤에서 부끄러워 얼굴을 내밀지 못해요",
+		share: {
+			title1: "고양이 손 속도 저킹",
+			title2: "고양이 쓰다듬은 횟수",
+			tips: "똥 스쿠퍼를 처치하세요"
+		},
+		goCat: "고양이 쓰다듬으러 가기",
+		vtInst: "활동 설명"
+	},
+	month_array: [
+		"1월",
+		"2월",
+		"3월",
+		"4월",
+		"5월",
+		"6월",
+		"7월",
+		"8월",
+		"9월",
+		"10월",
+		"11월",
+		"12월"
+	],
+	"newpet_how_to_address_you": "어떻게 불러야 하나요",
+  "newpet_call_partner_nickname": "【배우자 닉네임】이라고 부르시면 됩니다.",
+  "newpet_enter_key_sequence": "입력해 주세요...",
+  "newpet_nickname": "닉네임",
+  "newpet_age": "나이",
+  "newpet_personality": "성격",
+  "newpet_growth_progress_tracking": "다음 등급까지 <span>{num}</span> 성장치가 부족합니다.",
+  "newpet_growth_gift_pack": "성장 패키지",
+  "newpet_pet_preference_user_specific": "{petname}은 {username}을 더 좋아하는 것 같아요~",
+  "newpet_saved_successfully": "저장 성공",
+  "newpet_save": "저장",
+  "newpet_cat_care_affection_game": "고양이를 돌보면 친밀도를 얻을 수 있으며, 더 많이 돌본 사람이 고양이의 마음을 얻게 됩니다!",
+  "newpet_reward_system": "보상",
+  "newpet_unlock_moves": "새로운 동작 잠금 해제",
+  "newpet_receive": "받기",
+  "newpet_received": "받음",
+  "newpet_locked": "잠금 해제되지 않음",
+  "newpet_claimed_by_partner": "이미 상대방이 수령함",
+  "newpet_pet_level": "펫 레벨",
+	"newpet_claimed_successfully": '성공적으로 수령됨',
+	"pet_FeedingGuide_pet_base_stats": "반려동물 기본 수치",
+  "pet_FeedingGuide_how_to_increase": "포만감/기분/청결도를 높이는 방법",
+  "pet_FeedingGuide_growth_value_explanation": "성장치란 무엇인가요?",
+  "pet_FeedingGuide_affection_value_usage": "호감도는 무엇에 쓰이나요?",
+  "pet_FeedingGuide_community_takeover_explanation": "커뮤니티 인수란 무엇인가요?",
+  "pet_FeedingGuide_other_questions_feedback": "다른 궁금한 점이나 의견이 있으신가요?",
+  "pet_FeedingGuide_pet_props_interaction_effects": "펫에게 음식 아이템, 장난감 아이템 또는 청결 아이템을 사용하면 포만감/기분/청결도가 올라가요~",
+  "pet_FeedingGuide_pet_growth_upgrade": "성장치가 일정 단계에 도달하면 펫이 업그레이드돼요~ 펫 업그레이드 시 추가 레벨 꾸러미를 받을 수 있어요. \n펫이 건강한 상태를 유지하면 지속적으로 성장치를 얻어요. \n일부 아이템도 성장치를 제공해요~",
+  "pet_FeedingGuide_83bbcd7e": "호감도가 높을수록 반려동물과 상호작용할 때 더 다양한 행동 반응을 보여줘요~",
+  "pet_FeedingGuide_pet_custody_fee_reclaim": "펫이 오랫동안 돌봄을 받지 못하면 couple2 커뮤니티가 인수하며, 주인은 보호비를 지불해야 펫을 다시 데려갈 수 있어요~",
+  "pet_FeedingGuide_user_feedback_center": "다른 궁금한 점이 있다면 사용자 피드백 센터를 통해 언제든지 문의해 주세요!",
+	"pet_set_name_failed_toast": "최대 16자",
+  "pet_FeedingGuide_pet_health_values_tracker": "반려동물이 건강하게 성장하려면 포만 지수, 기분 지수, 청결 지수를 건강하게 유지해야 합니다...\n포만 지수/기분 지수/청결 지수는 20분마다 1%씩 감소합니다.\n그러므로 자주 이 수치를 확인하고 건강한 수준을 유지하도록 해야 합니다.",
+  "newpet_growth_notice": "{name}의 사랑은 편향되지 않아요, 여러분 모두에게 의존하고 있어요~"
+
+
+}

@@ -1,0 +1,157 @@
+{
+  "btnConfirm": "Xác nhận",
+  "feedGuide": {
+    "title": "@/assets/images/vi/feed_guildline_head.png"
+  },
+  "outgoingRecord": {
+    "title": "Ghi",
+    "tips": "Không còn",
+    "loading": "Tải",
+    "outReward": "Thưởng du lịch",
+    "growthRate": "Lượng",
+    "lockStory": "Mở khóa Truyện mới",
+    "affection": "Hảo cảm"
+  },
+  "petStory": {
+    "title": "Truyện",
+    "empty": "Chưa có dữ liệu...",
+    "loading": "Tải...",
+    "pop": {
+      "lock": "Mở",
+      "lockNum": "Đã mở khóa <span>{num}</span> lần",
+      "tips": "Cơ hội khi ra ngoài"
+    }
+  },
+  "petInfo": {
+    "title": "Thông tin pet",
+    "info": {
+      "birthday": "Sinh nhật",
+      "age": "Tuổi",
+      "tips": "Còn <span>{day}</span> ngày ăn khỏe để lớn",
+      "day": "{day} ngày",
+      "year": "Năm {year}",
+      "name": "喵",
+      "levelEnd": "Tiến độ cấp độ hiện tại đã đầy",
+      "maxLevel": "Đã đạt cấp độ cao nhất hiện tại"
+    },
+    "affection": {
+      "label": "Giá trị cảm xúc",
+      "tips": "Còn thiếu <span>{num}</span> điểm hảo cảm để lên cấp",
+      "btn": "Phần thưởng"
+    },
+    "diary": {
+      "title": "Nhật ký"
+    },
+    "favorabilityPop": {
+      "title": "Tăng điểm hảo cảm qua",
+      "text1": "Vuốt ve",
+      "text2": "Vuốt ve",
+      "text3": "Tắm rửa",
+      "text4": "Ngẫu nhiên"
+    },
+    "levelPop": {
+      "title": "Giữ thú cưng khỏe để nhận điểm phát triển!",
+      "tips": "Còn <span>{day}</span> ngày nuôi dưỡng khỏe mạnh để chuyển hình dạng"
+    },
+    "namePop": {
+      "title": "Đổi biệt danh",
+      "confirm": "Xác nhận",
+      "cancel": "Hủy",
+      "placeholder": "Sửa tên (tối đa 12 ký tự)"
+    }
+  },
+  "petAward": {
+    "reviceImg": "@/assets/images/vi/receive_icon.png",
+    "title": "Thưởng Tình cảm",
+    "affection": {
+      "title": "Còn thiếu <span>{num}</span> điểm hảo cảm để lên cấp",
+      "tips": "Cách tăng điểm hảo cảm?"
+    },
+    "stageHead": "Hành động Mới",
+    "stageGoods": {
+      "title": "Thưởng thêm VIP",
+      "tips": "Thưởng Kích hoạt TV"
+    },
+    "btnList": {
+      "btn1": "Chưa đạt cấp độ",
+      "btn2": "Đã nhận hết thưởng",
+      "btn3": "Thưởng Kích hoạt TV",
+      "btn4": "Nhận thưởng"
+    }
+  },
+  "catStrokeRank": {
+    "shareImg": "@/assets/images/vi/phb_fx_icon.png",
+    "ruleImg": "@/assets/images/vi/phb_hdsm_icon.png",
+    "shareBg": "@/assets/images/vi/phb_sj_bigbg_img.png",
+    "empty": "@/assets/images/vi/phb_wjl_img.png",
+    "timeRank": "@/assets/images/vi/phb_csb_banner_img.png",
+    "speedRank": "@/assets/images/vi/phb_banner_img.png",
+    "rule": [
+      "Bảng xếp hạng vuốt mèo cập nhật lúc 0h mỗi thứ Hai.",
+      "2. Kết quả vuốt ve mèo phải đạt mức thoải mái mới được thống kê vào bảng xếp hạng.",
+      "3. Nếu người dùng có cùng giá trị, thứ hạng xếp theo thời gian.",
+      "BXH chỉ hiện 100 người chơi đầu.",
+      "5. Nếu có thắc mắc, hãy phản hồi tại Trung tâm cá nhân."
+    ],
+    "tab1": "TỐC ĐỘ",
+    "tab2": "LẦN",
+    "speed": "Tốc độ:{speed}s",
+    "count": "{num}lần",
+    "tips": "Ngại xuất hiện sau~",
+    "share": {
+      "title1": "Tốc độ vuốt mèo",
+      "title2": "Vuốt ve mèo",
+      "tips": "Đánh bại Chủ mèo"
+    },
+    "goCat": "Vuốt ve mèo đi",
+    "vtInst": "Nội dung sự kiện"
+  },
+  "month_array": [
+    "Thg 1",
+    "Thg 2",
+    "Thg 3",
+    "Thg 4",
+    "Thg 5",
+    "Thg 6",
+    "Thg 7",
+    "Thg 8",
+    "Thg 9",
+    "Thg 10",
+    "Thg 11",
+    "Thg 12"
+  ],
+  "newpet_how_to_address_you": "Bạn nên gọi bạn là gì?",
+  "newpet_call_partner_nickname": "Làm thế nào để gọi 【biệt danh của nửa kia】",
+  "newpet_enter_key_sequence": "Vui lòng nhập...",
+  "newpet_nickname": "Biệt danh",
+  "newpet_age": "Tuổi",
+  "newpet_personality": "Tính cách",
+  "newpet_growth_progress_tracking": "Còn thiếu <span>{num}</span> điểm tăng trưởng để lên cấp tiếp theo",
+  "newpet_growth_gift_pack": "Quà Tặng Phát Triển",
+  "newpet_pet_preference_user_specific": "{petname} dường như thích {username} hơn đấy ~",
+  "newpet_saved_successfully": "Lưu thành công",
+  "newpet_save": "Lưu lại",
+  "newpet_cat_care_affection_game": "Chăm sóc mèo để nhận điểm hảo cảm, ai chăm sóc nhiều hơn sẽ được mèo ưu ái hơn!",
+  "newpet_reward_system": "Phần thưởng",
+  "newpet_unlock_moves": "Mở khóa động tác mới",
+  "newpet_receive": "Nhận",
+  "newpet_received": "Đã nhận được",
+  "newpet_locked": "Chưa mở khóa",
+  "newpet_claimed_by_partner": "Đã được người yêu nhận",
+  "newpet_pet_level": "Cấp độ thú cưng",
+  "newpet_claimed_successfully": "Nhận thành công",
+  "pet_FeedingGuide_pet_base_stats": "Chỉ số cơ bản của thú cưng",
+  "pet_FeedingGuide_how_to_increase": "Cách tăng giá trị no bụng/tâm trạng/sạch sẽ",
+  "pet_FeedingGuide_growth_value_explanation": "Giá trị tăng trưởng là gì?",
+  "pet_FeedingGuide_affection_value_usage": "Độ thiện cảm dùng để làm gì?",
+  "pet_FeedingGuide_community_takeover_explanation": "Tiếp quản cộng đồng là gì?",
+  "pet_FeedingGuide_other_questions_feedback": "Có thắc mắc hay ý kiến khác?",
+  "pet_FeedingGuide_pet_props_interaction_effects": "Sử dụng đồ ăn, đồ chơi hoặc vật dụng vệ sinh cho thú cưng sẽ tăng chỉ số no bụng/tâm trạng/sạch sẽ của chúng nhé~",
+  "pet_FeedingGuide_pet_growth_upgrade": "Khi điểm trưởng thành đạt đến một giai đoạn nhất định, thú cưng sẽ được nâng cấp nhé~ Thú cưng nâng cấp sẽ nhận được gói quà cấp độ bổ sung. \nKhi thú cưng khỏe mạnh, sẽ liên tục nhận được điểm trưởng thành. \nMột số vật phẩm cũng cung cấp điểm trưởng thành nữa đấy~",
+  "pet_FeedingGuide_83bbcd7e": "Độ thân thiết càng cao, thú cưng sẽ phản hồi bạn bằng nhiều hành động phong phú hơn khi tương tác đấy~",
+  "pet_FeedingGuide_pet_custody_fee_reclaim": "Khi thú cưng lâu ngày không được chăm sóc, chúng sẽ được cộng đồng couple2 tiếp quản. Chủ nhân cần thanh toán phí gửi nuôi để đón thú cưng về nhé~",
+  "pet_FeedingGuide_user_feedback_center": "Nếu bạn có thắc mắc khác, hãy đến Trung tâm phản hồi người dùng để liên hệ với chúng tôi!",
+  "pet_set_name_failed_toast": "Tối đa 16 k.tự",
+  "pet_FeedingGuide_pet_health_values_tracker": "Để thú cưng khỏe mạnh và phát triển tốt, chúng cần duy trì chỉ số no, tâm trạng và sạch sẽ...\nChỉ số no/tâm trạng/sạch sẽ giảm 1% sau mỗi 20 phút.\nVì vậy, hãy nhớ theo dõi các chỉ số này và giữ chúng ở mức lành mạnh.",
+  "newpet_growth_notice": "Tình yêu của {name} không thiên vị, đều phụ thuộc vào tất cả các bạn~"
+}

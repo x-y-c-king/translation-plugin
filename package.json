@@ -1,6 +1,6 @@
 {
   "name": "xdrc-translation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "",
   "description": "用于vue-i18n的翻译转换工具，支持excel和json互转",
   "main": "dist/index.cjs",
@@ -13,8 +13,8 @@
     "json转Excel"
   ],
   "scripts": {
-    "xlsx": "cross-env NODE_ENV=test rollup -c & node example/src/xlsx.js",
-    "json": "cross-env NODE_ENV=test rollup -c & node example/src/json.js",
+    "xlsx": "pnpm -C example xlsx",
+    "json": "pnpm -C example json",
     "build": "cross-env NODE_ENV=production rollup -c",
     "deploy": "cross-env NODE_ENV=production rollup -c && npm publish"
   },

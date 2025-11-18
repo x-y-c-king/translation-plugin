@@ -4,7 +4,8 @@
 	"version": "1.0.0",
 	"scripts": {
 		"xlsx": "ts-node ./src/locales/plugin/xlsx.ts",
-		"json": "ts-node ./src/locales/plugin/json.ts"
+		"json": "ts-node ./src/locales/plugin/json.ts",
+		"dev": "vite"
 	},
 	"resolutions": {
 		"rollup": "4.48.0"

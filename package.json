@@ -1,6 +1,6 @@
 {
   "name": "xdrc-translation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "",
   "description": "用于vue-i18n的翻译转换工具，支持excel和json互转",
   "main": "dist/index.cjs",
